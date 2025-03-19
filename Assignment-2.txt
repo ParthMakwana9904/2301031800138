@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Map</title>
+    <style>
+        /* Basic CSS Reset and General Styles */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px; /* Adjust as needed */
+            margin: 0 auto;
+        }
+        /* Header Styles (Common to Multiple Pages) */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .header-logo {
+            /* Styles for logo */
+        }
+        .header-nav ul {
+            list-style: none;
+            display: flex;
+        }
+        .header-nav ul li {
+            margin-left: 20px;
+        }
+        .header-nav ul li a {
+            text-decoration: none;
+            color: #333; /* Default text color */
+        }
+        /* Page Specific Styles */
+        .page {
+            padding: 20px;
+        }
+        /* Page 1 Styles */
+        .page-1 {
+            text-align: center;
+        }
+        .page-1 h1 {
+            font-size: 3em; /* Adjust as needed */
+        }
+        .page-1 button {
+            /* Styles for button */
+        }
+        /* Page 2 & 3 Styles (Forms) */
+        .form-container {
+            width: 300px; /* Adjust width as needed */
+            margin: 0 auto;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .form-container button {
+            /* Styles for button */
+            width: 100%;
+            padding: 10px;
+        }
+        /* Page 4 Styles */
+        .page-4 h2 {
+            font-size: 2em; /* Adjust as needed */
+            margin-bottom: 10px;
+        }
+        .page-4 p {
+            /* Styles for paragraph */
+        }
+        /* Page 6 & 7 Styles (Services) */
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .service-item {
+            text-align: center;
+        }
+        .service-item h3 {
+            /* Styles for heading */
+        }
+        /* Page 8 Styles (Contact) */
+        .contact-container {
+            /* Styles for contact container */
+        }
+        .contact-container h2 {
+             /* Styles for heading */
+        }
+        .contact-details {
+            /* Styles for contact details */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="page page-1">
+            <h1>Come and get trapped in</h1>
+            <h1>History</h1>
+            <button>Let's Go</button>
+        </div>
+        <div class="page page-2">
+            <header class="header">
+                <div class="header-logo">Logo</div>
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h2>Interactive</h2>
+            <h2>Historical Maps</h2>
+            <p>Explore Historical Events And Location Through Intractive Maps</p>
+            <div class="form-container">
+                <input type="text" placeholder="Enter Mobile Or Email">
+                <input type="password" placeholder="Password">
+                <button>Create Account. Sign up</button>
+                <button>Login</button>
+            </div>
+        </div>
+        <div class="page page-3">
+            <header class="header">
+                <div class="header-logo">Logo</div>
+                <nav class="header-nav">
+                    <ul>
+                         <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h2>Let's Go....</h2>
+            <div class="form-container">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+                <p>Terms and Conditions</p>
+            </div>
+        </div>
+        <div class="page page-4">
+            <header class="header">
+                <div class="header-logo">Logo</div>
+                <nav class="header-nav">
+                    <ul>
+                         <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h2>Explore Historical Events And</h2>
+            <h2>Location Through Interactive Maps</h2>
+            <p>Our Maps are designed to provide an impressive experience, allowing user to engage with historical data in a visually compelling and user-friendly way</p>
+            <p>Let History Come Alive Through Cartoarchives</p>
+            <div>
+                <span>LIYA</span>
+                <span>LOMILAD</span>
+                <span>ARCALATERA</span>
+                <span>BRAZIL</span>
+                <span>ATLANTA OCEAN</span>
+                <span>Next-></span>
+                <span>ANGOLA</span>
+            </div>
+        </div>
+        <div class="page page-5">
+            <header class="header">
+                <div class="header-logo">Logo</div>
+                <nav class="header-nav">
+                    <ul>
+                         <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="page page-6">
+            <header class="header">
+                <div class="header-logo">Logo</div>
+                <nav class="header-nav">
+                    <ul>
+                         <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h2>Endless Possibilities</h2>
+            <p>Our maps are designed to provide an immersive experience, allowing users to engage with historical data in a visually compelling and user-friendly way. Let history come alive through cartoarchieve,</p>
+            <div class="services-container">
+                <div class="service-item">
+                    <h3>Custom Map Creation</h3>
+                    <p>→</p>
+                </div>
+                <div class="service-item">
+                    <h3>Educational Workshop</h3>
+                </div>
+                <div class="service-item">
+                    <h3>Digital Restoration</h3>
+                </div>
+            </div>
+        </div>
+        <div class="page page-7">
+            <header class="header">
+                <div class="header-logo">Logo</div>
+                <nav class="header-nav">
+                    <ul>
+                         <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+             <div class="services-container">
+                <div class="service-item">
+                    <h3>Custom Map Creation</h3>
+                </div>
+                <div class="service-item">
+                    <h3>Educational Workshop</h3>
+                </div>
+                <div class="service-item">
+                    <h3>Digital Restoration</h3>
+                </div>
+            </div>
+        </div>
+        <div class="page page-8">
+            <header class="header">
+                <div class="header-logo">Logo</div>
+                <nav class="header-nav">
+                    <ul>
+                         <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h2>Contact Us...</h2>
+            <div class="contact-container">
+                <div class="contact-details">
+                    <p>Location:</p>
+                    <p>G26.White House floor 2</p>
+                    <p>Bapunagar. Ahmedabad</p>
+                    <p>PIN:380024</p>
+                </div>
+                 <div class="contact-details">
+                    <p>Contact:</p>
+                    <p>9909286889</p>
+                    <p>8160337200</p>
+                    <p>9316785188</p>
+                </div>
+                <div class="contact-details">
+                    <p>Email:</p>
+                    <p>mhostio@yahoo.com</p>
+                    <p>phisto@gmail.com</p>
+                    <p>vhisto@gmail.com</p>
+                    <p>dhisto@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
